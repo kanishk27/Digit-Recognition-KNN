@@ -48,7 +48,7 @@ def funcAll():
 			else:
 				incorrect += 1
 	accuracy = (correct/(correct+incorrect))*100
-	print(accuracy)
+	print(accuracy, '\n', 'Total Cases Tried:', correct+incorrect)
 
 #To check only one instance of each digit
 def funcTests(k):

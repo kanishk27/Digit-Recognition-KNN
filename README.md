@@ -1,2 +1,2 @@
 # Digit-Recognition-KNN
-An amateur program that uses the KNN Algorithm to recognize digits.
+An amateur python3 program that uses the KNN Algorithm to recognize digits.

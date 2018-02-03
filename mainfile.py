@@ -43,7 +43,7 @@ def funcAll():
 	for group in test_dataset:
 		for pt in test_dataset[group]:
 			output= k_nearest_neighbours(train_dataset, pt, k = 5)
-			if output is group:
+			if output[0][0] is group:
 				correct += 1
 			else:
 				incorrect += 1
@@ -64,7 +64,8 @@ def funcTests(k):
 		print(i, '\t ', answer[0][0], '\t', (answer[0][1]/k)*100)
 				
 funcTests(5)
-#need more computational power to run funcAll() :/
+#need more computational power to run funcAll() quickly:/
+#funcAll()
 
 		
 		

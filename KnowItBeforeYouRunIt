@@ -1,0 +1,11 @@
+For the sake of simplicity, 32 x 32 images were used, wherein the digit was written approximately in the centre.
+
+Credits: Shreyans - For gathering the enormous data and converting them to the intermediate stage of 0's and 1's and storing them
+into a .txt file.
+
+Libraries used were numpy and collections (for Counter) and the program is written in python3. 
+
+Use the funcAll() function if your your machine's computational power is high, else you'll get an accuracy of 0.0
+You can use pickle to directly load the variables instead of reading from the txt files every time. 
+
+That's pretty much it. XD

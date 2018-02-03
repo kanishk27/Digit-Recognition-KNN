@@ -5,7 +5,6 @@ into a .txt file.
 
 Libraries used were numpy and collections (for Counter) and the program is written in python3. 
 
-Use the funcAll() function if your your machine's computational power is high, else you'll get an accuracy of 0.0
 You can use pickle to directly load the variables instead of reading from the txt files every time. 
 
 That's pretty much it. XD

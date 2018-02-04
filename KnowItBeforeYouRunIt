@@ -1,7 +1,6 @@
 For the sake of simplicity, 32 x 32 images were used, wherein the digit was written approximately in the centre.
 
-Credits: Shreyans - For gathering the enormous data and converting them to the intermediate stage of 0's and 1's and storing them
-into a .txt file.
+Credits: @Shreyans365 - For gathering the enormous data set.
 
 Libraries used were numpy and collections (for Counter) and the program is written in python3. 
 

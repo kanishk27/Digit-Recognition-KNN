@@ -29,8 +29,8 @@ def k_nearest_neighbours(train_data, test_data, k=5):
 		for pt in train_data[group]:
 			temp_distance = 0
 			for i in range(len(pt)):
-				temp_distance += np.linalg.norm(np.array(pt[i]) - np.array(test_data[i]))
-			distances.append([temp_distance, group])
+				temp_distance += np.linalg.norm(np.array(pt[i]) - np.array(test_data[i]))**2
+			distances.append([temp_distance**0.5, group])
 
 	votes = [i[1] for i in sorted(distances)[:k]]
 	ans = Counter(votes).most_common(1)
